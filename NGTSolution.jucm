@@ -800,7 +800,7 @@
         <metadata name="_height" value="35"/>
         <metadata name="_width" value="106"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1311" id="1311" x="1146" y="585" succ="//@urndef/@specDiagrams.0/@connections.73" pred="//@urndef/@specDiagrams.0/@connections.44 //@urndef/@specDiagrams.0/@connections.45" def="1310">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1311" id="1311" x="1145" y="562" succ="//@urndef/@specDiagrams.0/@connections.73" pred="//@urndef/@specDiagrams.0/@connections.44 //@urndef/@specDiagrams.0/@connections.45" def="1310">
         <metadata name="_height" value="36"/>
         <metadata name="_width" value="106"/>
       </nodes>
