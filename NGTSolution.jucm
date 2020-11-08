@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 8, 2020 at 3:09:38 PM CST" specVersion="29" urnVersion="1.27" nextGlobalID="1452">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 8, 2020 at 4:33:02 PM EST" specVersion="30" urnVersion="1.27" nextGlobalID="1453">
   <ucmspec/>
   <grlspec>
     <intElements xsi:type="fm:Feature" name="NGT competing products" id="1059" linksDest="1086 1087 1088 1089 1090 1437 1092 1436" type="Task" refs="1060">
@@ -10,19 +10,19 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Live meeting" id="1065" linksDest="1199 1200 1201 1434" linksSrc="1087" type="Task" refs="1066">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Privacy" id="1071" linksDest="1347 1348 1350" linksSrc="1092" type="Task" refs="1072">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Document share" id="1073" linksDest="1412 1413" linksSrc="1436" type="Task" refs="1074">
       <metadata name="_addAggregate" value="disable"/>
@@ -33,13 +33,13 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Host" id="1077" linksDest="1253 1255 1448" linksSrc="1088" type="Task" refs="1078">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Scheduler" id="1079" linksDest="1126 1128 1130 1132" linksSrc="1437" type="Task" refs="1080">
       <metadata name="_addAggregate" value="disable"/>
@@ -50,13 +50,13 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Calendar" id="1095" linksDest="1134 1135" linksSrc="1126" type="Task" refs="1096">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Participation list" id="1099" linksDest="1136 1137" linksSrc="1128" type="Task" decompositionType="Or" refs="1100">
       <metadata name="_addAggregate" value="disable"/>
@@ -67,22 +67,22 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Reservation" id="1105" linksSrc="1132" type="Task" decompositionType="Or" refs="1106">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Date" id="1109" linksSrc="1134" type="Task" refs="1110">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Time" id="1113" linksSrc="1135" type="Task" refs="1114">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Email" id="1115" linksSrc="1136" type="Task" refs="1116">
       <metadata name="_numEval" value="100"/>
@@ -94,13 +94,13 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="Polling" id="1142" linksSrc="1433" type="Task" refs="1143">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Emoji reaction" id="1146" linksSrc="1157" type="Task" refs="1147">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Remote controll" id="1148" linksSrc="1158" type="Task" refs="1149">
       <metadata name="_addAggregate" value="disable"/>
@@ -111,31 +111,31 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Voice" id="1168" linksSrc="1204" type="Task" refs="1169">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Output" id="1170" linksDest="1203 1204" linksSrc="1199" type="Task" refs="1171">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Number of participants" id="1174" linksDest="1214 1216" linksSrc="1200" type="Task" refs="1175">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Recording" id="1180" linksSrc="1201" type="Task" refs="1181">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Breakout room" id="1182" linksSrc="1434" type="Task" refs="1183">
       <metadata name="_addAggregate" value="disable"/>
@@ -154,7 +154,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="> criteria" id="1210" linksSrc="1216" type="Task" refs="1211">
       <metadata name="_addAggregate" value="disable"/>
@@ -165,7 +165,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Message authority" id="1222" linksDest="1266 1438" linksSrc="1448" type="Task" refs="1223">
       <metadata name="_addAggregate" value="disable"/>
@@ -176,19 +176,19 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Mute" id="1228" linksSrc="1256" type="Task" refs="1229">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Kickout" id="1230" linksSrc="1257" type="Task" refs="1231">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Defean" id="1232" linksSrc="1435" type="Task" refs="1233">
       <metadata name="_addAggregate" value="disable"/>
@@ -199,7 +199,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Pin" id="1238" linksSrc="1266" type="Task" refs="1239">
       <metadata name="_addAggregate" value="disable"/>
@@ -215,31 +215,31 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Message post" id="1246" linksSrc="1264" type="Task" refs="1247">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Server setting" id="1248" linksSrc="1262" type="Task" refs="1249">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Share Content" id="1267" linksDest="1296 1297 1300" linksSrc="1294" type="Task" decompositionType="Or" refs="1268">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Share rights" id="1271" linksDest="1284 1282" linksSrc="1293" type="Task" decompositionType="Or" refs="1272">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Host only" id="1275" linksSrc="1282" type="Task" refs="1276">
       <metadata name="_numEval" value="100"/>
@@ -258,8 +258,8 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Whiteboard" id="1289" linksSrc="1296" type="Task" refs="1290">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Status" id="1301" linksDest="1331 1332" linksSrc="1307" type="Task" refs="1302">
       <metadata name="_addAggregate" value="disable"/>
@@ -275,7 +275,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Pinned" id="1316" linksSrc="1331" type="Task" refs="1317">
       <metadata name="_addAggregate" value="disable"/>
@@ -299,18 +299,18 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Access" id="1340" linksDest="1377 1379 1380" linksSrc="1348" type="Task" refs="1341">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Personal profile" id="1342" linksSrc="1350" type="Task" refs="1343">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Public server" id="1352" linksSrc="1363" type="Task" refs="1353">
       <metadata name="_numEval" value="0"/>
@@ -324,7 +324,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Contact" id="1366" linksSrc="1380" type="Task" refs="1367">
       <metadata name="_addAggregate" value="disable"/>
@@ -333,32 +333,32 @@
     </intElements>
     <intElements xsi:type="fm:Feature" name="3rd party accounts" id="1368" linksSrc="1379" type="Task" refs="1369">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Size" id="1382" linksDest="1425 1429" linksSrc="1412" type="Task" decompositionType="Xor" refs="1383">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Storage" id="1384" linksDest="1415 1416" linksSrc="1413" type="Task" refs="1385">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Upload" id="1386" linksDest="1420 1423" linksSrc="1416" type="Task" decompositionType="Or" refs="1387">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Download" id="1388" linksDest="1424 1419" linksSrc="1415" type="Task" decompositionType="Or" refs="1389">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201108-150938311"/>
+      <metadata name="_autoSelected" value="20201108-163258896"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="&lt;= Size limit" id="1392" linksSrc="1425" type="Task" refs="1393">
       <metadata name="_numEval" value="100"/>
@@ -373,16 +373,16 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Upload from cloud" id="1402" linksSrc="1423" type="Task" refs="1403">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Download to local" id="1404" linksSrc="1419" type="Task" refs="1405">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Download to cloud" id="1406" linksSrc="1424" type="Task" refs="1407">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Hand-up" id="1144" linksSrc="1432" type="Task" fillColor="191,191,191" filled="true" refs="1145">
       <metadata name="_addAggregate" value="disable"/>
@@ -520,6 +520,30 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1146">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1382">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1386">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1148">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
