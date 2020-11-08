@@ -609,29 +609,6 @@
     <featureModel/>
   </grlspec>
   <urndef>
-    <responsibilities name="choose meeting product" id="294"/>
-    <responsibilities name="Upload from local" id="597" respRefs="598"/>
-    <responsibilities name="Others" id="601" respRefs="602"/>
-    <responsibilities name="Google Drive" id="605" respRefs="606"/>
-    <responsibilities name="OneDrive" id="609" respRefs="610"/>
-    <responsibilities name="Ask permissions" id="615" respRefs="616"/>
-    <responsibilities name="choose local docs" id="865" respRefs="866"/>
-    <responsibilities name="access permit" id="913" respRefs="914"/>
-    <responsibilities name="choose docs" id="919" respRefs="920"/>
-    <responsibilities name="upload choose docs" id="923" respRefs="924"/>
-    <responsibilities name="Store docs in the server" id="927" respRefs="928"/>
-    <responsibilities name="Provice link to download" id="931" respRefs="932"/>
-    <responsibilities name="Responsibility977" id="977"/>
-    <responsibilities name="Start share screen" id="1563" respRefs="1564"/>
-    <responsibilities name="Select Screen to share" id="1571" respRefs="1572"/>
-    <responsibilities name="Boardcast Share Screen" id="1623" respRefs="1624"/>
-    <responsibilities name="TakeDraw" id="1675" respRefs="1676"/>
-    <responsibilities name="Display main room" id="1681" respRefs="1682"/>
-    <responsibilities name="Pause Share" id="1799" respRefs="1800"/>
-    <responsibilities name="Stop Pause" id="1865" respRefs="1866"/>
-    <responsibilities name="Click Stop Share" id="1909" respRefs="1910 1918"/>
-    <responsibilities name="Responsibility1917" id="1917"/>
-    <responsibilities name="Select new share" id="1927" respRefs="1928"/>
     <specDiagrams xsi:type="fm:FeatureDiagram" name="Feature Model" id="4">
       <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1060" id="1060" x="706" y="45" pred="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.3 //@urndef/@specDiagrams.0/@connections.4 //@urndef/@specDiagrams.0/@connections.5 //@urndef/@specDiagrams.0/@connections.6 //@urndef/@specDiagrams.0/@connections.7" def="1059">
         <metadata name="_height" value="57"/>
