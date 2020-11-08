@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 8, 2020 at 4:01:05 AM EST" specVersion="61" urnVersion="1.27" nextGlobalID="3623">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 8, 2020 at 5:52:28 PM EST" specVersion="64" urnVersion="1.27" nextGlobalID="3624">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
@@ -1229,6 +1229,7 @@
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="3596" target="3578"/>
       <connections xsi:type="ucm.map:NodeConnection" source="3623" target="3596"/>
+      <comments description="Two scenarios are combined:&#xD;&#xA;1. Send a message.&#xD;&#xA;2. Receive a message." x="69" y="507" width="244" height="87" fillColor="255,255,200"/>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="UserSupportSpecialist_GoalModel" id="2">
       <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1649" id="1649" x="914" y="146" contRef="1670" pred="//@urndef/@specDiagrams.2/@connections.5 //@urndef/@specDiagrams.2/@connections.14" def="1648">
