@@ -1,159 +1,517 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 9, 2020 at 10:35:59 AM CST" specVersion="14" urnVersion="1.27" nextGlobalID="3167">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="cuili" created="November 2, 2020 at 12:11:22 AM EST" modified="November 9, 2020 at 10:41:35 AM CST" specVersion="15" urnVersion="1.27" nextGlobalID="3178">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
     </scenarioGroups>
   </ucmspec>
   <grlspec>
-    <intElements xsi:type="fm:Feature" name="NGT competing products" id="1059" linksDest="1086 1087 1088 1089 1090 3165 1092 3164" type="Task" refs="1060"/>
-    <intElements xsi:type="fm:Feature" name="Messanger" id="1061" linksDest="1307 1308 1314" linksSrc="1090" type="Task" refs="1062"/>
-    <intElements xsi:type="fm:Feature" name="Live meeting" id="1065" linksDest="1199 1200 1201 3163" linksSrc="1087" type="Task" refs="1066"/>
-    <intElements xsi:type="fm:Feature" name="Privacy" id="1071" linksDest="1347 1348 1350" linksSrc="1092" type="Task" refs="1072"/>
-    <intElements xsi:type="fm:Feature" name="Document share" id="1073" linksDest="1412 1413" linksSrc="3164" type="Task" refs="1074"/>
-    <intElements xsi:type="fm:Feature" name="Screen share" id="1075" linksDest="1293 1294" linksSrc="1089" type="Task" refs="1076"/>
-    <intElements xsi:type="fm:Feature" name="Host" id="1077" linksDest="1253 3166 1255" linksSrc="1088" type="Task" refs="1078"/>
-    <intElements xsi:type="fm:Feature" name="Scheduler" id="1079" linksDest="1126 1128 1130 1132" linksSrc="3165" type="Task" refs="1080"/>
-    <intElements xsi:type="fm:Feature" name="Interaction" id="1081" linksDest="3161 3160 1157 1158" linksSrc="1086 2865" type="Task" refs="1082 2864"/>
-    <intElements xsi:type="fm:Feature" name="Calendar" id="1095" linksDest="1134 1135" linksSrc="1126" type="Task" refs="1096"/>
-    <intElements xsi:type="fm:Feature" name="Participation list" id="1099" linksDest="1136 1137" linksSrc="1128" type="Task" decompositionType="Or" refs="1100"/>
-    <intElements xsi:type="fm:Feature" name="Reminder" id="1101" linksSrc="1130" type="Task" refs="1102"/>
-    <intElements xsi:type="fm:Feature" name="Reservation" id="1105" linksSrc="1132" type="Task" decompositionType="Or" refs="1106"/>
-    <intElements xsi:type="fm:Feature" name="Date" id="1109" linksSrc="1134" type="Task" refs="1110"/>
-    <intElements xsi:type="fm:Feature" name="Time" id="1113" linksSrc="1135" type="Task" refs="1114"/>
-    <intElements xsi:type="fm:Feature" name="Email" id="1115" linksSrc="1136" type="Task" refs="1116"/>
-    <intElements xsi:type="fm:Feature" name="Name" id="1117" linksSrc="1137" type="Task" refs="1118"/>
-    <intElements xsi:type="fm:Feature" name="Polling" id="1142" linksSrc="3160" type="Task" refs="1143"/>
-    <intElements xsi:type="fm:Feature" name="Hand-up" id="1144" linksSrc="3161" type="Task" refs="1145"/>
-    <intElements xsi:type="fm:Feature" name="Emoji reaction" id="1146" linksSrc="1157" type="Task" refs="1147"/>
-    <intElements xsi:type="fm:Feature" name="Remote controll" id="1148" linksSrc="1158" type="Task" refs="1149"/>
-    <intElements xsi:type="fm:Feature" name="Camera" id="1166" linksDest="1196 1194" linksSrc="1203" type="Task" decompositionType="Or" refs="1167"/>
-    <intElements xsi:type="fm:Feature" name="Voice" id="1168" linksSrc="1204" type="Task" refs="1169"/>
-    <intElements xsi:type="fm:Feature" name="Output" id="1170" linksDest="1203 1204" linksSrc="1199" type="Task" refs="1171"/>
-    <intElements xsi:type="fm:Feature" name="Number of participants" id="1174" linksDest="1214 1216" linksSrc="1200" type="Task" refs="1175"/>
-    <intElements xsi:type="fm:Feature" name="Recording" id="1180" linksSrc="1201" type="Task" refs="1181"/>
-    <intElements xsi:type="fm:Feature" name="Breakout room" id="1182" linksSrc="3163" type="Task" refs="1183"/>
-    <intElements xsi:type="fm:Feature" name="HD" id="1186" linksSrc="1196" type="Task" refs="1187"/>
-    <intElements xsi:type="fm:Feature" name="480P" id="1188" linksSrc="1194" type="Task" refs="1189"/>
-    <intElements xsi:type="fm:Feature" name="&lt;= criteria" id="1206" linksSrc="1214" type="Task" refs="1207"/>
-    <intElements xsi:type="fm:Feature" name="> criteria" id="1210" linksSrc="1216" type="Task" refs="1211"/>
-    <intElements xsi:type="fm:Feature" name="Member authority" id="1220" linksDest="1256 1257 3162 1259" linksSrc="1253 2817" type="Task" refs="1221 2814"/>
-    <intElements xsi:type="fm:Feature" name="Message authority" id="1222" linksDest="1266 3167" linksSrc="2818 3166" type="Task" refs="1223 2813"/>
-    <intElements xsi:type="fm:Feature" name="Priority" id="1224" linksDest="1262 1263 1264" linksSrc="1255" type="Task" refs="1225"/>
-    <intElements xsi:type="fm:Feature" name="Mute" id="1228" linksSrc="1256" type="Task" refs="1229"/>
-    <intElements xsi:type="fm:Feature" name="Kickout" id="1230" linksSrc="1257" type="Task" refs="1231"/>
-    <intElements xsi:type="fm:Feature" name="Defean" id="1232" linksSrc="3162" type="Task" refs="1233"/>
-    <intElements xsi:type="fm:Feature" name="Assign role" id="1234" linksSrc="1259" type="Task" refs="1235"/>
-    <intElements xsi:type="fm:Feature" name="Pin" id="1238" linksSrc="1266" type="Task" refs="1239"/>
-    <intElements xsi:type="fm:Feature" name="Delete" id="1240" linksSrc="3167" type="Task" refs="1241"/>
-    <intElements xsi:type="fm:Feature" name="Share screen" id="1244" linksSrc="1263" type="Task" refs="1245"/>
-    <intElements xsi:type="fm:Feature" name="Message post" id="1246" linksSrc="1264" type="Task" refs="1247"/>
-    <intElements xsi:type="fm:Feature" name="Server setting" id="1248" linksSrc="1262 2870" type="Task" refs="1249 2869"/>
-    <intElements xsi:type="fm:Feature" name="Share Content" id="1267" linksDest="1296 1297 1300" linksSrc="1294" type="Task" decompositionType="Or" refs="1268"/>
-    <intElements xsi:type="fm:Feature" name="Share rights" id="1271" linksDest="1284 1282" linksSrc="1293" type="Task" decompositionType="Or" refs="1272"/>
-    <intElements xsi:type="fm:Feature" name="Host only" id="1275" linksSrc="1282" type="Task" refs="1276"/>
-    <intElements xsi:type="fm:Feature" name="Any member" id="1277" linksSrc="1284" type="Task" refs="1278"/>
-    <intElements xsi:type="fm:Feature" name="Whole screen" id="1285" linksSrc="1297" type="Task" refs="1286"/>
-    <intElements xsi:type="fm:Feature" name="One program" id="1287" linksSrc="1300" type="Task" refs="1288"/>
-    <intElements xsi:type="fm:Feature" name="Whiteboard" id="1289" linksSrc="1296" type="Task" refs="1290"/>
-    <intElements xsi:type="fm:Feature" name="Status" id="1301" linksDest="1331 1332" linksSrc="1307" type="Task" refs="1302"/>
-    <intElements xsi:type="fm:Feature" name="History" id="1303" linksSrc="1308" type="Task" refs="1304"/>
-    <intElements xsi:type="fm:Feature" name="Textbox" id="1310" linksDest="1337 1335" linksSrc="1314" type="Task" decompositionType="Or" refs="1311"/>
-    <intElements xsi:type="fm:Feature" name="Pinned" id="1316" linksSrc="1331" type="Task" refs="1317"/>
-    <intElements xsi:type="fm:Feature" name="Read/unread" id="1318" linksSrc="1332" type="Task" refs="1319"/>
-    <intElements xsi:type="fm:Feature" name="Public channel" id="1322" linksSrc="1337" type="Task" refs="1323"/>
-    <intElements xsi:type="fm:Feature" name="Private Channel" id="1324" linksSrc="1335" type="Task" refs="1325"/>
-    <intElements xsi:type="fm:Feature" name="Server" id="1338" linksDest="1363 1361" linksSrc="1347" type="Task" decompositionType="Xor" refs="1339"/>
-    <intElements xsi:type="fm:Feature" name="Access" id="1340" linksDest="1377 1379 1380" linksSrc="1348" type="Task" refs="1341"/>
-    <intElements xsi:type="fm:Feature" name="Personal profile" id="1342" linksSrc="1350" type="Task" refs="1343"/>
-    <intElements xsi:type="fm:Feature" name="Public server" id="1352" linksSrc="1363 2831" type="Task" refs="1353 2822"/>
-    <intElements xsi:type="fm:Feature" name="Private Server" id="1354" linksSrc="1361 2832" type="Task" refs="1355 2823"/>
-    <intElements xsi:type="fm:Feature" name="Local files" id="1364" linksSrc="1377" type="Task" refs="1365"/>
-    <intElements xsi:type="fm:Feature" name="Contact" id="1366" linksSrc="1380" type="Task" refs="1367"/>
-    <intElements xsi:type="fm:Feature" name="3rd party accounts" id="1368" linksSrc="1379" type="Task" refs="1369"/>
-    <intElements xsi:type="fm:Feature" name="Size" id="1382" linksDest="1425 1429" linksSrc="1412" type="Task" decompositionType="Xor" refs="1383"/>
-    <intElements xsi:type="fm:Feature" name="Storage" id="1384" linksDest="1415 1416" linksSrc="1413" type="Task" refs="1385"/>
-    <intElements xsi:type="fm:Feature" name="Upload" id="1386" linksDest="1420 1423" linksSrc="1416" type="Task" decompositionType="Or" refs="1387"/>
-    <intElements xsi:type="fm:Feature" name="Download" id="1388" linksDest="1424 1419" linksSrc="1415" type="Task" decompositionType="Or" refs="1389"/>
-    <intElements xsi:type="fm:Feature" name="&lt;= Size limit" id="1392" linksSrc="1425" type="Task" refs="1393"/>
-    <intElements xsi:type="fm:Feature" name="> Size limit" id="1396" linksSrc="1429" type="Task" refs="1397"/>
-    <intElements xsi:type="fm:Feature" name="Upload from local" id="1400" linksSrc="1420" type="Task" refs="1401"/>
-    <intElements xsi:type="fm:Feature" name="Upload from cloud" id="1402" linksSrc="1423" type="Task" refs="1403"/>
-    <intElements xsi:type="fm:Feature" name="Download to local" id="1404" linksSrc="1419" type="Task" refs="1405"/>
-    <intElements xsi:type="fm:Feature" name="Download to cloud" id="1406" linksSrc="1424" type="Task" refs="1407"/>
-    <intElements name="Improve Capacity Acceptance Rate" id="2436" linksDest="2809 2810" linksSrc="2627" type="Goal" decompositionType="Or" refs="2437"/>
-    <intElements name="Improve Online Class Experience" id="2450" linksDest="2548 2549 2552 2613 2627" refs="2451"/>
-    <intElements name="Provide Online Technical Difficulty Help" id="2462" linksSrc="2548" type="Goal" refs="2463"/>
-    <intElements name="Update System Every Six Months" id="2464" linksSrc="2613" type="Goal" refs="2465"/>
-    <intElements name="Improve back-end  structure" id="2468" type="Task"/>
-    <intElements name="Improve Information Protection Technology" id="2539" linksDest="2811 2846" linksSrc="2549" type="Goal" decompositionType="Or" refs="2540"/>
-    <intElements name="Design clear UI Interface" id="2541" linksDest="2865" linksSrc="2552" type="Goal" refs="2542"/>
-    <intElements name="Goal2785" id="2785" type="Goal"/>
-    <intElements name="Easy front-end  data transimisson" id="2787" linksSrc="2810" type="Goal" refs="2788"/>
-    <intElements name="Require Authorization" id="2789" linksDest="2817 2818" linksSrc="2811" type="Goal" refs="2790"/>
-    <intElements name="Use LoadBalance to relieve server stress" id="2791" linksSrc="2809" type="Goal" refs="2792"/>
-    <intElements name="Stable Server" id="2824" linksDest="2831 2832 2870" linksSrc="2846" type="Goal" importance="Medium" importanceQuantitative="50" refs="2825"/>
-    <actors name="Technical Expert" id="15" contRefs="16"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1086" id="1086" refs="//@urndef/@specDiagrams.1/@connections.0" dest="1059" src="1081"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1087" id="1087" refs="//@urndef/@specDiagrams.1/@connections.1" dest="1059" src="1065"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1088" id="1088" refs="//@urndef/@specDiagrams.1/@connections.2" dest="1059" src="1077"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1089" id="1089" refs="//@urndef/@specDiagrams.1/@connections.3" dest="1059" src="1075"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1090" id="1090" refs="//@urndef/@specDiagrams.1/@connections.4" dest="1059" src="1061"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1092" id="1092" refs="//@urndef/@specDiagrams.1/@connections.5" dest="1059" src="1071"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1126" id="1126" refs="//@urndef/@specDiagrams.1/@connections.6" dest="1079" src="1095"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1128" id="1128" refs="//@urndef/@specDiagrams.1/@connections.7" dest="1079" src="1099"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1130" id="1130" refs="//@urndef/@specDiagrams.1/@connections.8" dest="1079" src="1101"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1132" id="1132" refs="//@urndef/@specDiagrams.1/@connections.9" dest="1079" src="1105"/>
+    <intElements xsi:type="fm:Feature" name="NGT competing products" id="1059" linksDest="1086 1087 1088 1089 1090 3165 1092 3164" type="Task" refs="1060">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Messanger" id="1061" linksDest="1307 1308 1314" linksSrc="1090" type="Task" refs="1062">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Live meeting" id="1065" linksDest="1199 1200 1201 3163" linksSrc="1087" type="Task" refs="1066">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Privacy" id="1071" linksDest="1347 1348 1350" linksSrc="1092" type="Task" refs="1072">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Document share" id="1073" linksDest="1412 1413" linksSrc="3164" type="Task" refs="1074">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Screen share" id="1075" linksDest="1293 1294" linksSrc="1089" type="Task" refs="1076">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Host" id="1077" linksDest="1253 3166 1255" linksSrc="1088" type="Task" refs="1078">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Scheduler" id="1079" linksDest="1126 1128 1130 1132" linksSrc="3165" type="Task" refs="1080">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Interaction" id="1081" linksDest="3161 3160 1157 1158" linksSrc="1086 2865" type="Task" refs="1082 2864">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Calendar" id="1095" linksDest="1134 1135" linksSrc="1126" type="Task" refs="1096">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Participation list" id="1099" linksDest="1136 1137" linksSrc="1128" type="Task" decompositionType="Or" refs="1100">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Reminder" id="1101" linksSrc="1130" type="Task" refs="1102">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Reservation" id="1105" linksSrc="1132" type="Task" decompositionType="Or" refs="1106">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Date" id="1109" linksSrc="1134" type="Task" refs="1110">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Time" id="1113" linksSrc="1135" type="Task" refs="1114">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Email" id="1115" linksSrc="1136" type="Task" refs="1116">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Name" id="1117" linksSrc="1137" type="Task" refs="1118">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Polling" id="1142" linksSrc="3160" type="Task" refs="1143">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Hand-up" id="1144" linksSrc="3161" type="Task" refs="1145">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Emoji reaction" id="1146" linksSrc="1157" type="Task" refs="1147">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Remote controll" id="1148" linksSrc="1158" type="Task" refs="1149">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Camera" id="1166" linksDest="1196 1194" linksSrc="1203" type="Task" decompositionType="Or" refs="1167">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Voice" id="1168" linksSrc="1204" type="Task" refs="1169">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Output" id="1170" linksDest="1203 1204" linksSrc="1199" type="Task" refs="1171">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Number of participants" id="1174" linksDest="1214 1216" linksSrc="1200" type="Task" refs="1175">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Recording" id="1180" linksSrc="1201" type="Task" refs="1181">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Breakout room" id="1182" linksSrc="3163" type="Task" refs="1183">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="HD" id="1186" linksSrc="1196" type="Task" refs="1187">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="480P" id="1188" linksSrc="1194" type="Task" refs="1189">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="&lt;= criteria" id="1206" linksSrc="1214" type="Task" refs="1207">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="> criteria" id="1210" linksSrc="1216" type="Task" refs="1211">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Member authority" id="1220" linksDest="1256 1257 3162 1259" linksSrc="1253 2817" type="Task" refs="1221 2814">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Message authority" id="1222" linksDest="1266 3167" linksSrc="2818 3166" type="Task" refs="1223 2813">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Priority" id="1224" linksDest="1262 1263 1264" linksSrc="1255" type="Task" refs="1225">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Mute" id="1228" linksSrc="1256" type="Task" refs="1229">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Kickout" id="1230" linksSrc="1257" type="Task" refs="1231">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Defean" id="1232" linksSrc="3162" type="Task" refs="1233">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Assign role" id="1234" linksSrc="1259" type="Task" refs="1235">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Pin" id="1238" linksSrc="1266" type="Task" refs="1239">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Delete" id="1240" linksSrc="3167" type="Task" refs="1241">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Share screen" id="1244" linksSrc="1263" type="Task" refs="1245">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Message post" id="1246" linksSrc="1264" type="Task" refs="1247">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Server setting" id="1248" linksSrc="1262 2870" type="Task" refs="1249 2869">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Share Content" id="1267" linksDest="1296 1297 1300" linksSrc="1294" type="Task" decompositionType="Or" refs="1268">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Share rights" id="1271" linksDest="1284 1282" linksSrc="1293" type="Task" decompositionType="Or" refs="1272">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Host only" id="1275" linksSrc="1282" type="Task" refs="1276">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Any member" id="1277" linksSrc="1284" type="Task" refs="1278">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Whole screen" id="1285" linksSrc="1297" type="Task" refs="1286">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="One program" id="1287" linksSrc="1300" type="Task" refs="1288">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Whiteboard" id="1289" linksSrc="1296" type="Task" refs="1290">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Status" id="1301" linksDest="1331 1332" linksSrc="1307" type="Task" refs="1302">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="History" id="1303" linksSrc="1308" type="Task" refs="1304">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Textbox" id="1310" linksDest="1337 1335" linksSrc="1314" type="Task" decompositionType="Or" refs="1311">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Pinned" id="1316" linksSrc="1331" type="Task" refs="1317">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Read/unread" id="1318" linksSrc="1332" type="Task" refs="1319">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Public channel" id="1322" linksSrc="1337" type="Task" refs="1323">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Private Channel" id="1324" linksSrc="1335" type="Task" refs="1325">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Server" id="1338" linksDest="1363 1361" linksSrc="1347" type="Task" decompositionType="Xor" refs="1339">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+      <metadata name="_userSetEvaluationWarning" value="100 != 0"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Access" id="1340" linksDest="1377 1379 1380" linksSrc="1348" type="Task" refs="1341">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Personal profile" id="1342" linksSrc="1350" type="Task" refs="1343">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Public server" id="1352" linksSrc="1363 2831" type="Task" refs="1353 2822">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Private Server" id="1354" linksSrc="1361 2832" type="Task" refs="1355 2823">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Local files" id="1364" linksSrc="1377" type="Task" refs="1365">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201109-104130481"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Contact" id="1366" linksSrc="1380" type="Task" refs="1367">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="3rd party accounts" id="1368" linksSrc="1379" type="Task" refs="1369">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Size" id="1382" linksDest="1425 1429" linksSrc="1412" type="Task" decompositionType="Xor" refs="1383">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Storage" id="1384" linksDest="1415 1416" linksSrc="1413" type="Task" refs="1385">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Upload" id="1386" linksDest="1420 1423" linksSrc="1416" type="Task" decompositionType="Or" refs="1387">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Download" id="1388" linksDest="1424 1419" linksSrc="1415" type="Task" decompositionType="Or" refs="1389">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="&lt;= Size limit" id="1392" linksSrc="1425" type="Task" refs="1393">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="> Size limit" id="1396" linksSrc="1429" type="Task" refs="1397">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Upload from local" id="1400" linksSrc="1420" type="Task" refs="1401">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Upload from cloud" id="1402" linksSrc="1423" type="Task" refs="1403">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Download to local" id="1404" linksSrc="1419" type="Task" refs="1405">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Download to cloud" id="1406" linksSrc="1424" type="Task" refs="1407">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Improve Capacity Acceptance Rate" id="2436" linksDest="2809 2810" linksSrc="2627" type="Goal" decompositionType="Or" refs="2437">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Improve Online Class Experience" id="2450" linksDest="2548 2549 2552 2613 2627" refs="2451">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="Provide Online Technical Difficulty Help" id="2462" linksSrc="2548" type="Goal" refs="2463">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Update System Every Six Months" id="2464" linksSrc="2613" type="Goal" refs="2465">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Improve back-end  structure" id="2468" type="Task">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Improve Information Protection Technology" id="2539" linksDest="2811 2846" linksSrc="2549" type="Goal" decompositionType="Or" refs="2540">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Design clear UI Interface" id="2541" linksDest="2865" linksSrc="2552" type="Goal" refs="2542">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="Goal2785" id="2785" type="Goal">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Easy front-end  data transimisson" id="2787" linksSrc="2810" type="Goal" refs="2788">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Require Authorization" id="2789" linksDest="2817 2818" linksSrc="2811" type="Goal" refs="2790">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Use LoadBalance to relieve server stress" id="2791" linksSrc="2809" type="Goal" refs="2792">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <intElements name="Stable Server" id="2824" linksDest="2831 2832 2870" linksSrc="2846" type="Goal" importance="Medium" importanceQuantitative="50" refs="2825">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </intElements>
+    <actors name="Technical Expert" id="15" contRefs="16">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="Denied"/>
+    </actors>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1086" id="1086" refs="//@urndef/@specDiagrams.1/@connections.0" dest="1059" src="1081" quantitativeContribution="16"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1087" id="1087" refs="//@urndef/@specDiagrams.1/@connections.1" dest="1059" src="1065" quantitativeContribution="16"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1088" id="1088" refs="//@urndef/@specDiagrams.1/@connections.2" dest="1059" src="1077" quantitativeContribution="17"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1089" id="1089" refs="//@urndef/@specDiagrams.1/@connections.3" dest="1059" src="1075" quantitativeContribution="17"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1090" id="1090" refs="//@urndef/@specDiagrams.1/@connections.4" dest="1059" src="1061" quantitativeContribution="17"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1092" id="1092" refs="//@urndef/@specDiagrams.1/@connections.5" dest="1059" src="1071" quantitativeContribution="17"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1126" id="1126" refs="//@urndef/@specDiagrams.1/@connections.6" dest="1079" src="1095" quantitativeContribution="50"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1128" id="1128" refs="//@urndef/@specDiagrams.1/@connections.7" dest="1079" src="1099" quantitativeContribution="0"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1130" id="1130" refs="//@urndef/@specDiagrams.1/@connections.8" dest="1079" src="1101" quantitativeContribution="50"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1132" id="1132" refs="//@urndef/@specDiagrams.1/@connections.9" dest="1079" src="1105" quantitativeContribution="0"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1134" id="1134" refs="//@urndef/@specDiagrams.1/@connections.10" dest="1095" src="1109"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1135" id="1135" refs="//@urndef/@specDiagrams.1/@connections.11" dest="1095" src="1113"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1136" id="1136" refs="//@urndef/@specDiagrams.1/@connections.12" dest="1099" src="1115"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1137" id="1137" refs="//@urndef/@specDiagrams.1/@connections.13" dest="1099" src="1117"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1157" id="1157" refs="//@urndef/@specDiagrams.1/@connections.14" dest="1081" src="1146"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1158" id="1158" refs="//@urndef/@specDiagrams.1/@connections.15" dest="1081" src="1148"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1157" id="1157" refs="//@urndef/@specDiagrams.1/@connections.14" dest="1081" src="1146" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1158" id="1158" refs="//@urndef/@specDiagrams.1/@connections.15" dest="1081" src="1148" quantitativeContribution="100"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1194" id="1194" refs="//@urndef/@specDiagrams.1/@connections.16" dest="1166" src="1188"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1196" id="1196" refs="//@urndef/@specDiagrams.1/@connections.17" dest="1166" src="1186"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1199" id="1199" refs="//@urndef/@specDiagrams.1/@connections.18" dest="1065" src="1170"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1200" id="1200" refs="//@urndef/@specDiagrams.1/@connections.19" dest="1065" src="1174"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1201" id="1201" refs="//@urndef/@specDiagrams.1/@connections.20" dest="1065" src="1180"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1203" id="1203" refs="//@urndef/@specDiagrams.1/@connections.21" dest="1170" src="1166"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1204" id="1204" refs="//@urndef/@specDiagrams.1/@connections.22" dest="1170" src="1168"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1214" id="1214" refs="//@urndef/@specDiagrams.1/@connections.23" dest="1174" src="1206"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1216" id="1216" refs="//@urndef/@specDiagrams.1/@connections.24" dest="1174" src="1210"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1253" id="1253" refs="//@urndef/@specDiagrams.1/@connections.25" dest="1077" src="1220"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1255" id="1255" refs="//@urndef/@specDiagrams.1/@connections.26" dest="1077" src="1224"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1256" id="1256" refs="//@urndef/@specDiagrams.1/@connections.27" dest="1220" src="1228"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1257" id="1257" refs="//@urndef/@specDiagrams.1/@connections.28" dest="1220" src="1230"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1259" id="1259" refs="//@urndef/@specDiagrams.1/@connections.29" dest="1220" src="1234"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1262" id="1262" refs="//@urndef/@specDiagrams.1/@connections.30" dest="1224" src="1248"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1263" id="1263" refs="//@urndef/@specDiagrams.1/@connections.31" dest="1224" src="1244"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1264" id="1264" refs="//@urndef/@specDiagrams.1/@connections.32" dest="1224" src="1246"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1266" id="1266" refs="//@urndef/@specDiagrams.1/@connections.33" dest="1222" src="1238"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1199" id="1199" refs="//@urndef/@specDiagrams.1/@connections.18" dest="1065" src="1170" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1200" id="1200" refs="//@urndef/@specDiagrams.1/@connections.19" dest="1065" src="1174" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1201" id="1201" refs="//@urndef/@specDiagrams.1/@connections.20" dest="1065" src="1180" quantitativeContribution="34"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1203" id="1203" refs="//@urndef/@specDiagrams.1/@connections.21" dest="1170" src="1166" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1204" id="1204" refs="//@urndef/@specDiagrams.1/@connections.22" dest="1170" src="1168" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1214" id="1214" refs="//@urndef/@specDiagrams.1/@connections.23" dest="1174" src="1206" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1216" id="1216" refs="//@urndef/@specDiagrams.1/@connections.24" dest="1174" src="1210" quantitativeContribution="0"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1253" id="1253" refs="//@urndef/@specDiagrams.1/@connections.25" dest="1077" src="1220" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1255" id="1255" refs="//@urndef/@specDiagrams.1/@connections.26" dest="1077" src="1224" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1256" id="1256" refs="//@urndef/@specDiagrams.1/@connections.27" dest="1220" src="1228" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1257" id="1257" refs="//@urndef/@specDiagrams.1/@connections.28" dest="1220" src="1230" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1259" id="1259" refs="//@urndef/@specDiagrams.1/@connections.29" dest="1220" src="1234" quantitativeContribution="34"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1262" id="1262" refs="//@urndef/@specDiagrams.1/@connections.30" dest="1224" src="1248" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1263" id="1263" refs="//@urndef/@specDiagrams.1/@connections.31" dest="1224" src="1244" quantitativeContribution="33"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1264" id="1264" refs="//@urndef/@specDiagrams.1/@connections.32" dest="1224" src="1246" quantitativeContribution="34"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1266" id="1266" refs="//@urndef/@specDiagrams.1/@connections.33" dest="1222" src="1238" quantitativeContribution="100"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1282" id="1282" refs="//@urndef/@specDiagrams.1/@connections.34" dest="1271" src="1275"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1284" id="1284" refs="//@urndef/@specDiagrams.1/@connections.35" dest="1271" src="1277"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1293" id="1293" refs="//@urndef/@specDiagrams.1/@connections.36" dest="1075" src="1271"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1294" id="1294" refs="//@urndef/@specDiagrams.1/@connections.37" dest="1075" src="1267"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1293" id="1293" refs="//@urndef/@specDiagrams.1/@connections.36" dest="1075" src="1271" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1294" id="1294" refs="//@urndef/@specDiagrams.1/@connections.37" dest="1075" src="1267" quantitativeContribution="50"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1296" id="1296" refs="//@urndef/@specDiagrams.1/@connections.38" dest="1267" src="1289"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1297" id="1297" refs="//@urndef/@specDiagrams.1/@connections.39" dest="1267" src="1285"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1300" id="1300" refs="//@urndef/@specDiagrams.1/@connections.40" dest="1267" src="1287"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1307" id="1307" refs="//@urndef/@specDiagrams.1/@connections.41" dest="1061" src="1301"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1308" id="1308" refs="//@urndef/@specDiagrams.1/@connections.42" dest="1061" src="1303"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1314" id="1314" refs="//@urndef/@specDiagrams.1/@connections.43" dest="1061" src="1310"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1331" id="1331" refs="//@urndef/@specDiagrams.1/@connections.44" dest="1301" src="1316"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1332" id="1332" refs="//@urndef/@specDiagrams.1/@connections.45" dest="1301" src="1318"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1307" id="1307" refs="//@urndef/@specDiagrams.1/@connections.41" dest="1061" src="1301" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1308" id="1308" refs="//@urndef/@specDiagrams.1/@connections.42" dest="1061" src="1303" quantitativeContribution="0"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1314" id="1314" refs="//@urndef/@specDiagrams.1/@connections.43" dest="1061" src="1310" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1331" id="1331" refs="//@urndef/@specDiagrams.1/@connections.44" dest="1301" src="1316" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1332" id="1332" refs="//@urndef/@specDiagrams.1/@connections.45" dest="1301" src="1318" quantitativeContribution="100"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1335" id="1335" refs="//@urndef/@specDiagrams.1/@connections.46" dest="1310" src="1324"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1337" id="1337" refs="//@urndef/@specDiagrams.1/@connections.47" dest="1310" src="1322"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1347" id="1347" refs="//@urndef/@specDiagrams.1/@connections.48" dest="1071" src="1338"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1348" id="1348" refs="//@urndef/@specDiagrams.1/@connections.49" dest="1071" src="1340"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1350" id="1350" refs="//@urndef/@specDiagrams.1/@connections.50" dest="1071" src="1342"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1347" id="1347" refs="//@urndef/@specDiagrams.1/@connections.48" dest="1071" src="1338" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1348" id="1348" refs="//@urndef/@specDiagrams.1/@connections.49" dest="1071" src="1340" quantitativeContribution="50"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1350" id="1350" refs="//@urndef/@specDiagrams.1/@connections.50" dest="1071" src="1342" quantitativeContribution="0"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1361" id="1361" refs="//@urndef/@specDiagrams.1/@connections.51" dest="1338" src="1354"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1363" id="1363" refs="//@urndef/@specDiagrams.1/@connections.52" dest="1338" src="1352"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1377" id="1377" refs="//@urndef/@specDiagrams.1/@connections.53" dest="1340" src="1364"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1379" id="1379" refs="//@urndef/@specDiagrams.1/@connections.54" dest="1340" src="1368"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional1380" id="1380" refs="//@urndef/@specDiagrams.1/@connections.55" dest="1340" src="1366"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1412" id="1412" refs="//@urndef/@specDiagrams.1/@connections.56" dest="1073" src="1382"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1413" id="1413" refs="//@urndef/@specDiagrams.1/@connections.57" dest="1073" src="1384"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1415" id="1415" refs="//@urndef/@specDiagrams.1/@connections.58" dest="1384" src="1388"/>
-    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1416" id="1416" refs="//@urndef/@specDiagrams.1/@connections.59" dest="1384" src="1386"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1377" id="1377" refs="//@urndef/@specDiagrams.1/@connections.53" dest="1340" src="1364" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1379" id="1379" refs="//@urndef/@specDiagrams.1/@connections.54" dest="1340" src="1368" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional1380" id="1380" refs="//@urndef/@specDiagrams.1/@connections.55" dest="1340" src="1366" quantitativeContribution="0"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1412" id="1412" refs="//@urndef/@specDiagrams.1/@connections.56" dest="1073" src="1382" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1413" id="1413" refs="//@urndef/@specDiagrams.1/@connections.57" dest="1073" src="1384" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1415" id="1415" refs="//@urndef/@specDiagrams.1/@connections.58" dest="1384" src="1388" quantitativeContribution="50"/>
+    <links xsi:type="fm:MandatoryFMLink" name="Mandatory1416" id="1416" refs="//@urndef/@specDiagrams.1/@connections.59" dest="1384" src="1386" quantitativeContribution="50"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1419" id="1419" refs="//@urndef/@specDiagrams.1/@connections.60" dest="1388" src="1404"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1420" id="1420" refs="//@urndef/@specDiagrams.1/@connections.61" dest="1386" src="1400"/>
     <links xsi:type="grl:Decomposition" name="Decomposition1423" id="1423" refs="//@urndef/@specDiagrams.1/@connections.62" dest="1386" src="1402"/>
@@ -175,16 +533,353 @@
     <links xsi:type="grl:Contribution" name="Contribution2846" id="2846" refs="//@urndef/@specDiagrams.0/@connections.12" dest="2539" src="2824" contribution="SomePositive" quantitativeContribution="50"/>
     <links xsi:type="grl:Decomposition" name="Decomposition2865" id="2865" refs="//@urndef/@specDiagrams.0/@connections.13" dest="2541" src="1081"/>
     <links xsi:type="grl:Decomposition" name="Decomposition2870" id="2870" refs="//@urndef/@specDiagrams.0/@connections.14" dest="2824" src="1248"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3160" id="3160" refs="//@urndef/@specDiagrams.1/@connections.66" dest="1081" src="1142"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3161" id="3161" refs="//@urndef/@specDiagrams.1/@connections.67" dest="1081" src="1144"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3162" id="3162" refs="//@urndef/@specDiagrams.1/@connections.68" dest="1220" src="1232"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3163" id="3163" refs="//@urndef/@specDiagrams.1/@connections.69" dest="1065" src="1182"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3164" id="3164" refs="//@urndef/@specDiagrams.1/@connections.70" dest="1059" src="1073"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3165" id="3165" refs="//@urndef/@specDiagrams.1/@connections.71" dest="1059" src="1079"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3166" id="3166" refs="//@urndef/@specDiagrams.1/@connections.72" dest="1077" src="1222"/>
-    <links xsi:type="fm:OptionalFMLink" name="Optional3167" id="3167" refs="//@urndef/@specDiagrams.1/@connections.73" dest="1222" src="1240"/>
-    <groups name="StrategiesGroup5" id="5" strategies="6"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3160" id="3160" refs="//@urndef/@specDiagrams.1/@connections.66" dest="1081" src="1142" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3161" id="3161" refs="//@urndef/@specDiagrams.1/@connections.67" dest="1081" src="1144" quantitativeContribution="100"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3162" id="3162" refs="//@urndef/@specDiagrams.1/@connections.68" dest="1220" src="1232" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3163" id="3163" refs="//@urndef/@specDiagrams.1/@connections.69" dest="1065" src="1182" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3164" id="3164" refs="//@urndef/@specDiagrams.1/@connections.70" dest="1059" src="1073" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3165" id="3165" refs="//@urndef/@specDiagrams.1/@connections.71" dest="1059" src="1079" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3166" id="3166" refs="//@urndef/@specDiagrams.1/@connections.72" dest="1077" src="1222" quantitativeContribution="0"/>
+    <links xsi:type="fm:OptionalFMLink" name="Optional3167" id="3167" refs="//@urndef/@specDiagrams.1/@connections.73" dest="1222" src="1240" quantitativeContribution="100"/>
+    <groups name="StrategiesGroup5" id="5" strategies="6 3170 3172 3174 3176 3178"/>
     <strategies name="EvaluationStrategy6" id="6" author="cuili" group="5"/>
+    <strategies name="DingTalk" id="3170" author="fork" group="5">
+      <evaluations qualitativeEvaluation="Denied" intElement="1142">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1144">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1148">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1186">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1285">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1287">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1079">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1099">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1115">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1117">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1301">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1318">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1303">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1324">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1354">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1342">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1402">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1406">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1322">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1316">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Discord" id="3172" author="David" group="5">
+      <evaluations qualitativeEvaluation="Denied" intElement="1148">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1186">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1238">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1232">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1277">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1303">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1301">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1316">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1318">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1324">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1322">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1368">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1240">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1146">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1354">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1287">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1285">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="MicrosoftTeam" id="3174" author="cuili" group="5">
+      <evaluations qualitativeEvaluation="Denied" intElement="1285">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1287">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1117">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1368">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1301">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1316">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1318">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1144">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1289">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1079">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1105">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1115">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1354">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1322">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1324">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1303">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1186">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1271">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1146">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1382">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1386">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1148">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Skype" id="3176" author="fork" group="5">
+      <evaluations qualitativeEvaluation="Denied" intElement="1142">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1144">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1188">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1232">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1240">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1289">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1095">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1079">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1322">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1352">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Zoom" id="3178" author="fork" group="5">
+      <evaluations qualitativeEvaluation="Denied" intElement="1142">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1144">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1146">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1148">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1186">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1182">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1275">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1287">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1285">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1079">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1099">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1117">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1303">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1352">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1322">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1366">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1073">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1392">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1400">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations qualitativeEvaluation="Denied" intElement="1404">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
     <impactModel/>
     <indicatorGroup name="Time" id="9" isRedesignCategory="true"/>
     <indicatorGroup name="Cost" id="10" isRedesignCategory="true"/>
